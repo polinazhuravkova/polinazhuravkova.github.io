@@ -37,9 +37,11 @@ a:hover {
 .content {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
   margin: 25px;
 }
 
@@ -75,7 +77,6 @@ a:hover {
 @media only screen and (max-width: 768px) {
   .cv, .about, .contact-mobile {
     width: 100%;
-    /*max-width: none;*/
     margin-bottom: 40px;
   }
 
