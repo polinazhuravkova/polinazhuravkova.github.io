@@ -1,0 +1,163 @@
+@media screen and (max-width: 1200px) 
+{
+   
+:root {
+      --border: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin:0;
+    padding:0;
+    font-size: 3.2dvh;
+}
+
+
+.flex-content-desktop {
+    display: none;
+}
+
+.panel-center {
+    display: none;
+}
+
+.wrapper.central {
+    width: 100%;
+    margin:auto;
+    border: var(--border);
+}
+.flex-content-mobile {
+    border: var(--border);
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    flex-direction: column;
+}
+
+.pageContent {
+    top:-5rem;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+#contactPage {
+    width:100%;
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+    margin-top: 20%;
+    border: var(--border);
+}
+
+.mobile-nav {
+    top: 1%;
+    border: --border;
+    width:100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+
+
+}
+
+#abtImg {
+    margin-top: 10%;
+    width: auto;
+    height: 30rem;
+}
+
+.wrapper {
+    top:3vh;
+    display: block;
+    width:50%;
+    height:50%;
+    margin:4rem;
+}
+
+ul {
+    font-size: 2dvh !important;
+    text-align: center;
+   
+}
+
+
+
+#menu1, #menu2 {
+    display: none;
+    width: 100%;
+    height: 12dvh;
+    top: 12%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.9);
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+    padding: 40px;
+}
+
+
+
+.nav1 , .nav2 {
+    top: 2dvh;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav1 {
+    left:1rem;
+}
+.nav2 {
+    right:1rem;
+}
+
+
+
+iframe, .image {
+    top:0;
+    left:0;
+    aspect-ratio: 16/9;
+    margin-top: 3rem;
+    /* position: absolute; */
+    width: 100vw;
+    z-index: 0;
+}
+
+.horizontal-image-container {
+    /* border: red solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    
+}
+
+.horizontal-image {
+    /* border: black dashed; */
+    top:0;
+    left:0;
+    aspect-ratio: 9/16;
+    margin-top: 2rem;
+    margin:0.5%;
+    width: 49vw;
+    height: auto;
+    z-index: 0;
+
+}
+
+
+
+}
