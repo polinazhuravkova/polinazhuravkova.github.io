@@ -191,7 +191,10 @@ iframe, .image {
     
 }
 .pageContent p {
-    width: fit-content;
+
+    width: 140%;
+    text-align: center;
+    text-transform: uppercase;
 }
 #nameLink {
     font-weight:500;
